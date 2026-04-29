@@ -1,0 +1,14 @@
+{
+    "name": "pxt-i2c-slave",
+    "description": "I2C slave mode for MicroBit — registers MicroBit as hardware I2C slave device",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "i2cslave.cpp",
+        "README.md"
+    ],
+    "public": true,
+    "supportedTargets": ["microbit"]
+}
