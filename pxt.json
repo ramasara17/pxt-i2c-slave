@@ -1,6 +1,6 @@
 {
     "name": "pxt-i2c-slave",
-    "description": "I2C slave mode for MicroBit — registers MicroBit as hardware I2C slave device",
+    "description": "I2C slave mode for MicroBit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -10,5 +10,14 @@
         "README.md"
     ],
     "public": true,
-    "supportedTargets": ["microbit"]
+    "supportedTargets": ["microbit"],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "i2c": {
+                    "enabled": 1
+                }
+            }
+        }
+    }
 }
