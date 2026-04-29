@@ -1,15 +1,18 @@
 {
     "name": "pxt-i2c-slave",
-    "description": "I2C slave mode for MicroBit",
+    "description": "I2C slave for MicroBit",
     "license": "MIT",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "i2cslave.ts",
-        "i2cslave.cpp",
-        "README.md"
+        "i2cslave.ts"
+    ],
+    "testFiles": [
     ],
     "public": true,
-    "supportedTargets": ["microbit"]
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
