@@ -6,18 +6,10 @@
         "core": "*"
     },
     "files": [
+        "i2cslave.ts",
         "i2cslave.cpp",
         "README.md"
     ],
     "public": true,
-    "supportedTargets": ["microbit"],
-    "yotta": {
-        "config": {
-            "microbit-dal": {
-                "i2c": {
-                    "enabled": 1
-                }
-            }
-        }
-    }
+    "supportedTargets": ["microbit"]
 }
